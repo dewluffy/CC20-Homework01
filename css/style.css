@@ -1,0 +1,97 @@
+*{box-sizing: border-box;}
+
+.vertical{
+  border-right : 1px solid gray ; padding : 0px 6px
+}
+
+.boxpic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.boxpic img{
+  position: absolute;
+  left: 12px;
+}
+
+
+.personal{
+ display: flex;
+}
+
+.homebox{
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border: 1px solid gray;
+  border-collapse:collapse;
+}
+tr {
+  background-color: white;
+}
+td,th {
+  border: 1px solid gray;
+  padding: 4px;
+  text-align: left;
+}
+
+.th1{
+  border: 1px solid gray;
+  padding: 4px;
+  text-align: center;
+}
+
+.td1{
+  background-color: aqua;
+}
+
+.container{
+  align-items: center;
+  justify-content: center;
+}
+
+form{
+  border: 1px solid rgb(88, 86, 86);
+  padding: 32px;
+  width: 70%;
+  border-radius: 16px;
+}
+
+label,select{
+  display: block;
+}
+
+.send{
+  display: inline;
+  border-radius: 4px;
+}
+
+select{
+  width: 90%;
+  margin-bottom: 16px;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+
+textarea{
+  display: block;
+  width: 90%;
+  height: 500px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+
+.name{
+  width: 90%;
+  margin-bottom: 16px;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 4px;
+}
